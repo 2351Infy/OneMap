@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.OneMap.testLayer.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyVaccinationCenterTab"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.OneMap.testLayer.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
